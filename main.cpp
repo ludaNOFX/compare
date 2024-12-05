@@ -9,7 +9,7 @@ int main() {
 
     // вызывается статический метод compareStrings класса StringAdapter куда передаются 2 указателя на строки
     // он возвращает булево значение 
-    if (StringAdapter::compareStrings(str1, str2)) { 
+    if (compareStrings(str1, str2)) { 
         std::cout << "Строки равны (игнорируя регистр)" << std::endl;
     } else {
         std::cout << "Строки не равны" << std::endl;
